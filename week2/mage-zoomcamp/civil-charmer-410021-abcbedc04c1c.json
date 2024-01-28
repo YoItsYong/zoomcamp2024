@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "civil-charmer-410021",
+  "private_key_id": "abcbedc04c1c9ea1e0413e2ad37a52523f21e18f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDhfPvMlpKDsfCV\nE+OZZu/r5TYcGxIGrzIr62mhPWfF83pa0COJ4RCV5pY3xgzkE+rHlfXgLoeM9fzk\nl8Ba33PGdPier7m05MMp2yZUUhTFAenyWuJUw4so6J5ADWil++AeGK59r+N6eGtz\nu4EquQAlMdoVabogQilLsakD6Mn0wQhv1xhwKZ9IkB5Q7aAwiyoFrYj25dNwl/pA\ntd4/z8Beo63nYdYbYRGN8mypadDitAK7EqvUZVN/eA+2R7o5TIp4dY74LwhIlyXB\n6B/wcWfn6BNEKeiGkQ2Ekf5jkIdjL941WHIeN8YUWWAGTNF5iuJi76Jxri5uF9uw\nae4dLb69AgMBAAECggEAAt2PPPDW6M8x6FBp49uqhdwSUstx8F15Qj9KHC9HFSgR\nxdCqUEi+E2GW8XDWCMSgsaucBcl26y7UaWVCSlqs7SM0ZkkuZM2Za1E/zJzZwGJ/\nV2yZ6WDYxmAlDq788EsMnzqfZl/TVg2XXqT4hb33HKyPAcGns1w+i8SKCiTYWCth\nCn6qU6Wm7p7kVg+Cb1OpQeUYPL5cnxcxedar0ezjMc57Kn+nnAGvoqzEI8n+FFt3\nYEBOw5oIoCUonGNj8EKUBIQCNzRKxuzREXmcZBA3F/XqV63IXPSmFWz01tBbIPwb\nDyQVb0enJV9ptmawQyGMAICj2kNBPpmYpf/Gu7cssQKBgQD2UOhSkHW/1X22paRZ\nFp8FTFwEgGKAL3ywgmKO4Bh7gcn/B6Fc3tUBnkeeMnglBJKiqL8Yw3KIUnzi7SDu\nATbjHB/7eZgpcqeO/QG3UWCqsKo7sBGnvGI66ogkAKNMxWSRPIHRkFaBCXqmdf2S\n05fcdgceXJenOGuVB5mgJMc9VQKBgQDqWnNcmeGzNGtn8Jj+gaKZ+UzDeaippNvK\n8AZ3aBrtWihu5J9lg6rBzQOldot0iI+adYEC7kaw4/4RT8kZRmyO5Q+gVtT3xQA9\nsRHkwEgSQYlDVsjIBFN95PoLOoxRaWpbzeoSVBCUFWfKyH0mAq80OQty2PYYzQGZ\n7mh9qyw7yQKBgA+Jjv4WSrctGl75F+LewG0vIebOymfXlv/zWZA1ppWz3DAQJSec\njscpWs8p09ZR8YX9KwC+42yh92rBFoCs5u9wiLvuMaD7sIIeh4suwPBDcJmPQ63W\n/kNFJA1RVPu0v+FBddboSeyd0nTJoJMwcbXgZBaQNKjBsFeYQSKO71p5AoGBAMXa\nq37IpBaJ8QwFwwVMKR1ZrodyFQV0m+PPlYYGLIWrEmvdNP2dlfKcxbFSThaKnMLI\n5ay1wpThR8UR2TQvksNpfDHgXVj5x2RONE8uTyqqjdp+UHEdxeeKA9irC4BIQXVU\neYQT2RNMpx46+f23UngCmTnTFqKFog51i15dv7CRAoGAPUGJb7Fc+Bk4gJviS9v5\n7f56d+BlXwTOFtXFeI2vr4jMJ9DHWMZi7b24hHktnabltUAiSPqPSpePY6MrWxxK\nbDE7kamqn99sgnpsmrcLqbblaxXObi6rtNF00cY/Hz63LXRhDJ/jQCQjvS3jCd4c\nK6tvp3p+1urTeoKXGMSe4GY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mage-zoomcamp@civil-charmer-410021.iam.gserviceaccount.com",
+  "client_id": "110170035117783861236",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mage-zoomcamp%40civil-charmer-410021.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
