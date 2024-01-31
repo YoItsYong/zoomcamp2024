@@ -91,7 +91,7 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-01-26 20:28:12'
+updated_at: '2024-01-30 02:45:20'
 uuid: api_to_postgres
 variables_dir: /home/src/mage_data/magic-zoomcamp
 widgets: []

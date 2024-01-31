@@ -1,0 +1,24 @@
+from caseconverter import snakecase
+
+if 'transformer' not in globals():
+    from mage_ai.data_preparation.decorators import transformer
+if 'test' not in globals():
+    from mage_ai.data_preparation.decorators import test
+
+
+@transformer
+def transform(data, *args, **kwargs):
+    # Create a new column lpep_pickup_date by converting lpep_pickup_datetime to a date.
+    data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date
+    # Rename columns in Camel Case to Snake Case, e.g. VendorID to vendor_id.
+    data.columns = columns.str.replace('(?<=[a-z])(?=[A-Z])', '_', regex=True)
+    # Remove rows where the passenger count is equal to 0 or the trip distance is equal to zero.
+    return data[data['passenger_count'] > 0]
+
+
+# @test
+# def test_output(output, *args) -> None:
+#     """
+#     Template code for testing the output of the block.
+#     """
+#     assert output is not None, 'The output is undefined'
