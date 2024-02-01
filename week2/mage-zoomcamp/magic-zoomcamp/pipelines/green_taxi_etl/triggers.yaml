@@ -1,0 +1,22 @@
+triggers:
+- envs: []
+  name: frosty sky
+  pipeline_uuid: green_taxi_etl
+  schedule_interval: '@daily'
+  schedule_type: time
+  settings:
+    landing_time_enabled: false
+  sla: null
+  start_time: 2024-02-01 05:00:00
+  status: inactive
+  variables: {}
+- envs: []
+  name: Daily @ 5AM UTC
+  pipeline_uuid: green_taxi_etl
+  schedule_interval: '@daily'
+  schedule_type: time
+  settings: {}
+  sla: null
+  start_time: 2024-02-01 05:00:00
+  status: inactive
+  variables: {}
