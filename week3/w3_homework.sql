@@ -12,11 +12,11 @@ SELECT COUNT(1)
 FROM `ny_taxi.green_taxi_data_nonpartitioned`;
 
 -- Question 2: Write a query to count the distinct number of PULocationIDs for the entire dataset on both the tables.
--- EXTERNAL: 258
+-- EXTERNAL: 258 DISTINCT COUNT
 SELECT COUNT(DISTINCT PULocationID)
 FROM `ny_taxi.external_green_taxi_data`;
 
--- MATERIALIZED : 258
+-- MATERIALIZED : 258 DISTINCT COUNT
 SELECT COUNT(DISTINCT PULocationID)
 FROM `ny_taxi.green_taxi_data_nonpartitioned`;
 -- What is the estimated amount of data that will be read when this query is executed on the External Table and the Table?
