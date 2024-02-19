@@ -14,6 +14,7 @@ dim_zones as (
     where borough != 'Unknown'
 )
 select fhv_tripdata.tripid, 
+    fhv_tripdata.service_type,
     fhv_tripdata.pickup_locationid, 
     fhv_tripdata.dropoff_locationid,
     fhv_tripdata.pickup_datetime, 
