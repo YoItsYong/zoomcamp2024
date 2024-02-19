@@ -22,7 +22,7 @@ select
     cast(dropOff_datetime as timestamp) as dropoff_datetime,    
 
 from tripdata
-where rn = 1
+-- where rn = 1
         -- airport_fee,
         -- distance_between_service,
         -- time_between_service,
