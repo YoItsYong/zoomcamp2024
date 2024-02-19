@@ -18,7 +18,11 @@ select fhv_tripdata.tripid,
     fhv_tripdata.pickup_locationid, 
     fhv_tripdata.dropoff_locationid,
     fhv_tripdata.pickup_datetime, 
-    fhv_tripdata.dropoff_datetime, 
+    fhv_tripdata.dropoff_datetime,
+    pickup_zone.borough as pickup_borough,
+    pickup_zone.zone as pickup_zone,
+    dropoff_zone.zone as dropoff_zone,  
+
 from fhv_tripdata
 inner join dim_zones as pickup_zone
 on fhv_tripdata.pickup_locationid = pickup_zone.locationid
